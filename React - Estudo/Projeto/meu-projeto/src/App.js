@@ -2,6 +2,8 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Fragment  from './components/Fragment';
+
 function App() {
 
   const name = "Josefa";
@@ -24,6 +26,8 @@ function App() {
       idade="25" 
       profissao= "Programador"
       foto="https://via.placeholder.com/150" />
+
+      <Fragment />
       
 
       <p> Soma = {sum(2, 8)} </p>
