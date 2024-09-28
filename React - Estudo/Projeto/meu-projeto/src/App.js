@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Fragment  from './components/Fragment';
+import Lista2 from './components/Lista2';
 
 function App() {
 
@@ -18,9 +19,10 @@ function App() {
   return (
     <div className="App">
       <h1> Olá mundo! Olá {name}! </h1>
+      <Lista2 />
       <p> Este é um exemplo de aplicação React </p>
       <HelloWorld />
-      <SayMyName nome={name} />
+      <SayMyName nome={nome} />
       <Pessoa 
       nome="Rodrigo" 
       idade="25" 
