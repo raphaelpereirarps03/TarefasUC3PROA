@@ -1,0 +1,11 @@
+.corpoLista {
+    background-color: cadetblue;
+    border: 1px solid ;
+    list-style: none;
+}
+
+.itemLista {
+    color: rgb(0, 34, 226);
+    background-color: chartreuse;
+    margin: 12px;
+}
