@@ -1,3 +1,13 @@
+/*
+    -> O CSS pode ser adicionado de forma global na aplicação por meio do index.css por exemplo;
+
+    -> Porém é possível estilizar a nível de componentes;
+
+    -> Utilizamos o CSS modules para isso;
+    -> Basta criar um arquivo como: Componente.module.css;
+
+    -> E importá-lo no componente que deseja estilizar, chamar este css no componente.
+*/
 .corpoLista {
     background-color: cadetblue;
     border: 1px solid ;
