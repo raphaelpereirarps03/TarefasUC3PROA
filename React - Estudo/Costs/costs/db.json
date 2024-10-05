@@ -1,26 +1,15 @@
 {
   "projects": [
     {
-      "name": "Meu projeto doido",
-      "budge": "150000",
+      "name": "Design Site ",
+      "budget": "1000",
       "category": {
         "id": "3",
         "name": "Design"
       },
       "cost": 0,
       "services": [],
-      "id": 4
-    },
-    {
-      "name": "Projeto UC3",
-      "budge": "1",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 5
+      "id": 1
     }
   ],
   "categories": [
