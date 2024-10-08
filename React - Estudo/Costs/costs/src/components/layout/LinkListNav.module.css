@@ -1,0 +1,35 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    align-items: center;
+    list-style: none;
+    font-size: 1em;
+    
+}
+
+.item {
+    margin-right:1em;
+}
+
+.item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #ffbb33;
+}
+
+@media only screen and (max-width:440px) {
+    
+}
+
+@media (max-width: 768px) {
+    /* Esconder a navbar em telas menores */
+    .list {
+        margin-left: 0.9em;
+        font-size: 0.80em;
+    }
+}
+

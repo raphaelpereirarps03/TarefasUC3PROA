@@ -1,4 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 import Navbar from './components/layout/Navbar.js';
 import Home from './components/Pages/Home';
 import Company from './components/Pages/Company.js';
@@ -25,11 +26,10 @@ function App() {
   return (
     <Router>
       <Navbar />
-
-
+      
       <Container customClass="min-height">
         <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/company" element={<Company />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />

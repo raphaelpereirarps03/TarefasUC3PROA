@@ -1,0 +1,33 @@
+footer {
+    margin-top: 5em;
+    text-align: center;
+    background-color: #000;
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 1em;
+}
+
+footer div {
+    background-color: #222;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.icons {
+    margin: 0.5em;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icons:hover {
+    transform: scale(1.1);
+}

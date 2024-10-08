@@ -8,6 +8,8 @@ function Message({type, msg}) {
     useEffect(() => {
         if (!msg) {
             setVisible(false)
+            msg="";
+            type="";
             return
         }
 
@@ -15,9 +17,12 @@ function Message({type, msg}) {
 
         const timer = setTimeout(()=> {
             setVisible(false)
+            msg="";
+            type="";
         }, 3000)
 
-        return () => clearTimeout(timer)
+        return () => clearTimeout(timer); msg=""
+        type=""
 
     }, [msg])
 

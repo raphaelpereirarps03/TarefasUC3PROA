@@ -1,5 +1,6 @@
 .project_details {
     padding: 2em;
+    width: 100%;
 }
 
 .project_details h1, .project_details h2, .project_details p {
@@ -23,6 +24,7 @@
     display: flex;
     justify-content: space-between ;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .btn {
@@ -44,4 +46,21 @@
 
 .project_info {
     width: 100%;
+}
+
+
+@media only screen and (max-width:440px) {
+
+    .details_container .btn{
+    
+    }
+}
+
+@media only screen and (min-width:481px){
+    @media only screen and (max-width:720px) {
+        .btn {
+            display: flex;
+            justify-content: end;
+        }
+    }
 }
