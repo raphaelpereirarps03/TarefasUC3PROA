@@ -1,0 +1,15 @@
+.corpo_props {
+    position: relative;
+    width: 450px;
+    height: auto;
+    background-color: aliceblue;
+    color: #333;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.3em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 30px;
+    left: 850px;
+    z-index: 2;
+}

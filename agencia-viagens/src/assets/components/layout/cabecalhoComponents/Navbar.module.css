@@ -1,0 +1,30 @@
+.menu {
+    width: 60%;
+    color: #222;
+
+}
+
+.menu ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    padding: 0;
+
+}
+
+.menu .navLinks{
+    text-decoration: none;
+    
+}
+
+.menu ul li {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu ul li:hover {
+    color:#335588;
+}

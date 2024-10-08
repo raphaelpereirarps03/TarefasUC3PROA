@@ -4,8 +4,8 @@ import Logo from '../../imgs/viagens.jpg'
 import Lupa  from '../../imgs/lupa.png'
 
 
-import Navbar from './cabecalho/Navbar'
-import Input from './cabecalho/Input'
+import Navbar from './cabecalhoComponents/Navbar'
+import Input from './cabecalhoComponents/Input'
 function Header() {
     return (
         <header className={styles.content}>
