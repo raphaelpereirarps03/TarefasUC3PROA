@@ -1,0 +1,13 @@
+.areaTexto {
+    width: 50%;
+    padding: 1em;
+    margin: 1em ;
+    background-color: salmon;
+    color: #fff;
+    height: 100%;
+}
+
+.areaTexto h1{
+    margin: 0.5em 0em 1em 0;
+}
+

@@ -1,0 +1,38 @@
+.sectionBase {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.vermelho {
+    background-color: #f00;
+    
+}
+
+.ciano {
+    background-color: rgb(125, 236, 240);
+    justify-content: space-around;
+    padding: 3em;
+}
+
+.amarelo {
+    background-color: yellow;
+    height: auto;
+    
+}
+
+.branco {
+    background-color: #FFF;
+    
+}
+
+.branco .AreasText {
+    text-align: center;
+}
+
+.preto {
+    background-color: #222;
+    text-align: center;
+}

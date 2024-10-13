@@ -1,0 +1,19 @@
+.cards {
+    background-color: #fff;
+    border-radius: 1em;
+    text-align: center;
+    width: 20%;
+    height: 30%;
+    padding: 1em;
+    margin: em;
+}
+
+.cards img {
+    width: 80%;
+    height: 95%;
+}
+
+.cards span {
+    color: #f00;
+    font-weight: bold;
+}

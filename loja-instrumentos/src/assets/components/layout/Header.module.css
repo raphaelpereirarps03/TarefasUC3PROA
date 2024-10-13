@@ -1,0 +1,9 @@
+header {
+    width: 95%;
+    margin: auto;
+    padding: 2em;
+    background-image: url(../../imgs/guitarras_header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}

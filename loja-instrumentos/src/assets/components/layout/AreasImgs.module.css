@@ -1,0 +1,15 @@
+.areaImgs {
+    width: 50%;
+    padding: 1em;
+    margin: 1em ;
+    background-color: salmon;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+
+.areaImgs img {
+    max-width: 95%;
+
+
+}

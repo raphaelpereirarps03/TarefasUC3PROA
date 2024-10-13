@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 1em 0em;
+}
+
+ul li {
+    color: brown;
+}
+
+ul li  a  {
+    text-decoration: none;
+    color: brown;
+}

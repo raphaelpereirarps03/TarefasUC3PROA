@@ -1,0 +1,9 @@
+.areaLinks {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 55%;
+    float: right;
+    position: relative;
+    margin-top: 5em;
+}
