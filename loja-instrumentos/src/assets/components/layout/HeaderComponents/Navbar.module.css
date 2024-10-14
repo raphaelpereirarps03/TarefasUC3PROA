@@ -7,3 +7,16 @@
     position: relative;
     margin-top: 5em;
 }
+
+@media only screen and (max-width:440px) {
+    .areaLinks {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .areaLinks {
+        width: 100%;
+    }
+}

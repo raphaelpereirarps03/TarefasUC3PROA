@@ -13,3 +13,16 @@
 
 
 }
+
+@media only screen and (max-width:440px) {
+    .areaImgs  {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .areaImgs  {
+        width: 100%;
+    }
+}

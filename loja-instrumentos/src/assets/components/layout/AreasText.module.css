@@ -11,3 +11,16 @@
     margin: 0.5em 0em 1em 0;
 }
 
+@media only screen and (max-width:440px) {
+    .areaTexto {
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .areaTexto {
+        width: 100%;
+    }
+}
+

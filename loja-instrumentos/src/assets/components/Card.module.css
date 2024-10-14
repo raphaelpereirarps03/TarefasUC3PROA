@@ -17,3 +17,17 @@
     color: #f00;
     font-weight: bold;
 }
+
+@media (max-width: 320px) {
+    .cards    {
+        width: 100%;
+        margin: 0.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards    {
+        width: 45%;
+        margin: 0.5em;
+    }
+}

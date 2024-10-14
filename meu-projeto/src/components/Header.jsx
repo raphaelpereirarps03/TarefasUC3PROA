@@ -6,7 +6,7 @@ function Header () {
         <>
             <div className={Style.cabecalho}>
                 <h1 className={Style.titleHeader}>
-                    Header da Página
+                    Olá
                 </h1>
             </div>
 
