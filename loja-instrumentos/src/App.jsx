@@ -22,8 +22,6 @@ function App() {
             <Route path="/instrumentos" element={<Instrumentos />} />
             <Route path="/enderecos" element={<Enderecos />} />
           </Routes>
-
-
       </Container>
       <Footer />
     </Router>

@@ -1,14 +1,6 @@
 import styles from '../layout/Container.module.css'
 
-
-
 import AreasImgs from './AreasImgs'
-
-
-
-
-
-
 
 
 function Container(props) {
